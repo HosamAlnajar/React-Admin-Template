@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "NKI9ZNJe",
+      "title": "Post one",
+      "body": "This is the post body",
+      "publishedAt": "10-01-2020"
+    },
+    {
+      "id": "NKI9ZNJdew",
+      "title": "Post two",
+      "body": "This is the post body",
+      "publishedAt": "10-01-2020"
+    },
+    {
+      "title": "post 3",
+      "body": "this is post pu",
+      "publishedAt": "2020-10-01",
+      "id": "NKI9ZNJ"
+    }
+  ],
+  "users": [
+    {
+      "name": "Hosam Alnajar",
+      "email": "hosam87alnajar@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Traversy Media",
+      "email": " traversy.media@test.com",
+      "id": 2
+    }
+  ]
+}

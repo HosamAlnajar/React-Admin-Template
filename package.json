@@ -1,0 +1,25 @@
+{
+  "name": "react-admin",
+  "version": "1.0.0",
+  "description": "Admin dashboard template with React",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "react",
+    "json",
+    "server",
+    "npm",
+    "react admin"
+  ],
+  "author": "Hosam Alnajar",
+  "homepage": "https://github.com/HosamAlnajar",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.2"
+  }
+}
